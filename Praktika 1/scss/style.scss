@@ -1,0 +1,49 @@
+@import "clean-style.scss";
+.content {
+  width: 1190px;
+  height: 1064px;
+  margin: 0 auto;
+  background-color: #e8e8e8;
+  .header {
+    height: 358px;
+    padding-top: 130px;
+
+    text-align: center;
+    .title-1 {
+      opacity: 0.6;
+      font-family: Arial;
+      line-height: 40px;
+      font-weight: 400;
+      text-transform: uppercase;
+      letter-spacing: 0.2em;
+      color: #273d46;
+    }
+    .title-2 {
+      font-family: "Times New Roman";
+      font-size: 36px;
+      line-height: 50px;
+      font-weight: 400;
+      color: #273d46;
+      width: 722px;
+      text-align: center;
+      margin: 0 auto;
+    }
+  }
+  .img {
+    width: 841px;
+    height: 561px;
+    margin: 0 auto;
+    background-color: #e8e8e8;
+    box-shadow: 0px 15px 65px 0px;
+    padding: 10px;
+  }
+  .info {
+    .info-text {
+      font-family: "Times New Roman";
+      font-size: 24px;
+      line-height: 40px;
+      font-weight: 400;
+      color: #273d46;
+    }
+  }
+}
