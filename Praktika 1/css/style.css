@@ -90,8 +90,8 @@ h6 {
 
 /*Конец обнуления CSS*/
 .content {
-  width: 1190px;
-  height: 1064px;
+  width: 1450px;
+  height: 1705px;
   margin: 0 auto;
   background-color: #e8e8e8;
 }
@@ -128,10 +128,67 @@ h6 {
           box-shadow: 0px 15px 65px 0px;
   padding: 10px;
 }
-.content .info .info-text {
+.content .info {
+  height: 791px;
+  border: 1px solid #000;
+}
+.content .info .info__text {
+  width: 750px;
+  height: 130px;
   font-family: "Times New Roman";
   font-size: 24px;
   line-height: 40px;
   font-weight: 400;
   color: #273d46;
+  opacity: 0.8;
+  margin-left: 330px;
+}
+.content .info .info__text:first-of-type {
+  margin-top: 96px;
+}
+.content .info .info__text:last-of-type {
+  margin-top: 66px;
+  margin-bottom: 62px;
+}
+.content .info .info__lines {
+  height: 145px;
+  width: 465px;
+  margin-left: 330px;
+}
+.content .info .info__lines p:nth-child(1) {
+  font-family: Arial;
+  font-size: 20px;
+  line-height: 36px;
+  font-weight: 400;
+  text-shadow: 0px 1px 0px rgba(0, 0, 0, 0.3);
+  color: #273d46;
+}
+.content .info .info__lines p:nth-child(2) {
+  font-family: Arial;
+  font-size: 20px;
+  line-height: 36px;
+  font-weight: 400;
+  font-style: italic;
+  color: #80b7b3;
+}
+.content .info .info__lines p:nth-child(3) {
+  font-family: Arial;
+  font-size: 20px;
+  line-height: 36px;
+  font-weight: 700;
+  color: #273d46;
+}
+.content .info .info__lines p:nth-child(4) {
+  font-family: Arial;
+  font-size: 20px;
+  line-height: 36px;
+  font-weight: 400;
+  text-decoration: line-through;
+  color: #afb5b8;
+}
+.content .info .info__lines p {
+  background-image: url(../img/check_icon.png);
+  background-position: 0px 10px;
+  background-repeat: no-repeat;
+  padding-left: 36px;
 }
