@@ -4,6 +4,9 @@
   height: 1705px;
   margin: 0 auto;
   background-color: #e8e8e8;
+  background-image: url(../img/ellipse_1_copy_4.png);
+  background-repeat: no-repeat;
+  background-position: 142px 106px;
   .header {
     height: 358px;
     padding-top: 130px;
@@ -39,7 +42,6 @@
   }
   .info {
     height: 791px;
-    border: 1px solid #000;
 
     .info__text {
       width: 750px;
@@ -100,6 +102,28 @@
         background-position: 0px 10px;
         background-repeat: no-repeat;
         padding-left: 36px;
+      }
+    }
+    .knopka {
+      width: 199px;
+      height: 44px;
+      background-color: #80b7b3;
+      margin-left: 330px;
+      margin-top: 59px;
+      border-radius: 30px;
+      font-family: Arial;
+      font-size: 14px;
+      line-height: 40px;
+      font-weight: 400;
+      text-transform: uppercase;
+      letter-spacing: 0.2em;
+      color: #ffffff;
+      padding-left: 33px;
+      background-image: url(../img/shape_2_9.png);
+      background-repeat: no-repeat;
+      background-position: 155px 12px;
+      .strelka {
+        margin-top: 30px;
       }
     }
   }
